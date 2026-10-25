@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Part 2</title>
+    <script src="script.js" defer ></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h2>Task 6. Counter</h2>
+    <p>Counter: <strong id="counter-value">0</strong></p>
+    <button id="btn-increase" type="button">Increase</button>
+    <button id="btn-decrease" type="button">Decrease</button>
+    <button id="btn-reset" type="button">Reset</button>
+
+    <h2>Task 7. Live tetx preview</h2>
+    <label for="text-input">Type your text:</label>
+    <input id="text-input" type="text">
+    <p>Preview:<span id="preview">Your text will appear here</span></p>
+    <p>Characters: <span id="char-count">0</span></p>
+    <button id="btn-clear" type="button">Clear</button>
+
+    <h2>Task 8. Change an image with a select</h2>
+<label for="image-select">Choose a picture:</label>
+<select id="image-select">
+  <option value="mountain">Mountains</option>
+  <option value="sea">Sea</option>
+  <option value="forest">Forest</option>
+</select>
+<figure>
+  <img id="scene-image" src="images/mountain.jpg" alt="Snowy mountains" width="400">
+  <figcaption id="scene-caption">Mountains</figcaption>
+</figure>
+
+<h2>Task 9. Keyboard events</h2>
+<form id="key-form">
+  <label for="key-input">Type here:</label>
+  <input id="key-input" type="text" autocomplete="off">
+</form>
+<p>Status: <span id="key-status">No key pressed yet</span></p>
+<p>Result: <span id="key-result"></span></p>
+</form>
+
+<h2>Task 10. Mouse and focus events</h2>
+<div id="focus-card" class="card" tabindex="0">Hover or focus me</div>
+<p id="card-instruction">Move the mouse over the card or press Tab to focus it.</p>
+</body>
+</html>

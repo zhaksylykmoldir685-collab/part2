@@ -1,0 +1,17 @@
+.card {
+  display: inline-block;
+  padding: 1.5rem 2rem;
+  background: #e7ecff;
+  border: 2px solid #3b5bdb;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.card.highlight {
+  background: #ffe066;
+}
+
+.card:focus-visible {
+  outline: 4px solid #f59f00;
+  outline-offset: 3px;
+}
